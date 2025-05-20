@@ -1,10 +1,12 @@
-pandas
-numpy
-seaborn
-matplotlib
-scikit-learn
-scipy
-statsmodels
-plotly
-os-sys
--e .
+# pandas
+# numpy
+# seaborn
+# matplotlib
+# scikit-learn
+# scipy
+# statsmodels
+# plotly
+# os-sys
+# catboost
+xgboost
+# -e .
