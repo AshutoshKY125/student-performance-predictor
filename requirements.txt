@@ -8,5 +8,7 @@
 # plotly
 # os-sys
 # catboost
-xgboost
+# xgboost
+dill
+pickle-mixin
 # -e .
