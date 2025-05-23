@@ -17,7 +17,7 @@ from src.components.model_trainer import ModelTrainer
 class DataIngestionConfig:
     """
     This class defines the configuration for data ingestion.
-    It includes the paths for raw data, train data, test data, and the split ratio.
+    It includes the paths for raw data, train data, test data.
     """
     train_data_path: str=os.path.join('artifacts', 'train.csv')
     test_data_path: str=os.path.join('artifacts', 'test.csv')
