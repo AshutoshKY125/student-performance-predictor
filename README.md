@@ -2,7 +2,6 @@
 
 [![Project Status: Active](https://img.shields.io/badge/status-active-success.svg)](https://github.com/your-username/your-repo)
 [![Python Version](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An end-to-end machine learning project to predict student academic performance, complete with a user-friendly web interface built with Flask.
 
