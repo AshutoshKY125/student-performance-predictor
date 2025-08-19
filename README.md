@@ -11,8 +11,6 @@ This project implements an end-to-end machine learning pipeline to predict stude
 
 This short GIF showcases the web application's interface where users can input student data and receive a predicted academic performance score in real-time.
 
-*(**Pro Tip:** Record your screen while using the app, convert it to a GIF, and place it in a `gifs` folder in your repo!)*
-
 ![Project Demo GIF](https://github.com/AshutoshKY125/student-performance-predictor/blob/main/artifacts/Student%20Performance%20prediction%20demo.gif)
 
 ---
