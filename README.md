@@ -41,9 +41,6 @@ This short GIF showcases the web application's interface where users can input s
 
 ## 📂 Project Structure
 
-<details>
-<summary>Click to view the directory tree</summary>
-
 ```text
 project-root/
 |
