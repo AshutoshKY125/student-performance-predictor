@@ -13,7 +13,7 @@ This short GIF showcases the web application's interface where users can input s
 
 *(**Pro Tip:** Record your screen while using the app, convert it to a GIF, and place it in a `gifs` folder in your repo!)*
 
-![Project Demo GIF](https://raw.githubusercontent.com/your-username/your-repo/main/path/to/your/demo.gif)
+![Project Demo GIF](https://github.com/AshutoshKY125/student-performance-predictor/blob/main/artifacts/Student%20Performance%20prediction%20demo.gif)
 
 ---
 
