@@ -13,4 +13,24 @@ This project implements an end-to-end machine learning pipeline to predict stude
 
 ## 3. Project Structure
 The project is structured as follows:
+├── app.py # Main Flask application
+├── requirements.txt # Project dependencies
+├── setup.py # Project setup for installation
+├── src/ # Core source code
+│ ├── components/ # Individual ML components
+│ │ ├── data_ingestion.py # Handles raw data loading
+│ │ ├── data_transformation.py # Data cleaning, preprocessing, feature engineering
+│ │ └── model_trainer.py # Trains and evaluates ML models
+│ ├── pipeline/ # ML Pipelines
+│ │ ├── predict_pipeline.py # Defines the prediction workflow
+│ │ └── train_pipeline.py # Defines the training workflow
+│ ├── exception.py # Custom exception handling
+│ ├── logger.py # Logging utility
+│ └── utils.py # Helper functions
+├── notebook/ # Jupyter notebooks for analysis and training
+│ ├── 1 . EDA STUDENT PERFORMANCE .ipynb # Exploratory Data Analysis
+│ └── 2. MODEL TRAINING.ipynb # Model training and evaluation
+├── templates/ # HTML templates for the Flask application
+└── artifacts/ # Stores trained models, preprocessor objects, etc.
+
 ## END TO END PROJECT
