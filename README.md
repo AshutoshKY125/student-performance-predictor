@@ -33,4 +33,58 @@ The project is structured as follows:
 ├── templates/ # HTML templates for the Flask application
 └── artifacts/ # Stores trained models, preprocessor objects, etc.
 
-## END TO END PROJECT
+
+## 4. Installation
+
+To set up and run this project locally, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <your-repository-url>
+    cd student_performance_predictor
+    ```
+
+2.  **Create a virtual environment (recommended):**
+    ```bash
+    python -m venv venv
+    ```
+
+3.  **Activate the virtual environment:**
+    *   **Windows:**
+        ```bash
+        .\venv\Scripts\activate
+        ```
+    *   **macOS/Linux:**
+        ```bash
+        source venv/bin/activate
+        ```
+
+4.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    pip install -e .
+    ```
+
+## 5. Usage
+
+To run the Flask web application:
+
+1.  **Start the application:**
+    ```bash
+    python app.py
+    ```
+2.  Open your web browser and navigate to `http://127.0.0.1:5000/` (or the address shown in your terminal).
+
+    You can then input the student's details into the form and click "Predict" to see the estimated performance score.
+
+## 6. Model Details
+The project utilizes various regression models for student performance prediction, including `CatBoost` and `XGBoost`. The models are evaluated using appropriate regression metrics to ensure robust performance. The training process and model selection details can be found in the `2. MODEL TRAINING.ipynb` notebook.
+
+## 7. Future Enhancements
+*   Implement a more sophisticated UI for the web application.
+*   Explore additional features that might impact student performance.
+*   Integrate with a database for storing predictions and user feedback.
+*   Deploy the application to a cloud platform (e.g., AWS, GCP, Azure).
+
+## 8. Contact
+For any questions or suggestions, please feel free to reach out.
