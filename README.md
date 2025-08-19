@@ -13,9 +13,6 @@ This project implements an end-to-end machine learning pipeline to predict stude
 
 ## 3. Project Structure
 
-```markdown
-### 3. Project Structure
-
 ```text
 project-root/
 |
@@ -47,6 +44,7 @@ project-root/
 +-- templates/                # HTML templates for Flask web interface
 +-- artifacts/                # Generated files (models, preprocessors, etc.)
 L-- README.md                 # Project documentation
+```
 
 ## 4. Installation
 
