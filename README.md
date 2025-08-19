@@ -12,26 +12,37 @@ This project implements an end-to-end machine learning pipeline to predict stude
 *   **Logging and Exception Handling:** Implemented for better debugging and application robustness.
 
 ## 3. Project Structure
-The project is structured as follows:
-├── app.py # Main Flask application
-├── requirements.txt # Project dependencies
-├── setup.py # Project setup for installation
-├── src/ # Core source code
-│ ├── components/ # Individual ML components
-│ │ ├── data_ingestion.py # Handles raw data loading
-│ │ ├── data_transformation.py # Data cleaning, preprocessing, feature engineering
-│ │ └── model_trainer.py # Trains and evaluates ML models
-│ ├── pipeline/ # ML Pipelines
-│ │ ├── predict_pipeline.py # Defines the prediction workflow
-│ │ └── train_pipeline.py # Defines the training workflow
-│ ├── exception.py # Custom exception handling
-│ ├── logger.py # Logging utility
-│ └── utils.py # Helper functions
-├── notebook/ # Jupyter notebooks for analysis and training
-│ ├── 1 . EDA STUDENT PERFORMANCE .ipynb # Exploratory Data Analysis
-│ └── 2. MODEL TRAINING.ipynb # Model training and evaluation
-├── templates/ # HTML templates for the Flask application
-└── artifacts/ # Stores trained models, preprocessor objects, etc.
+
+project-root/
+│
+├── app.py                      # Main Flask application entry point
+├── requirements.txt            # Python dependencies and packages
+├── setup.py                   # Installation script for project setup
+│
+├── src/                       # Core source code package
+│   ├── __init__.py            # Package initialization
+│   ├── components/            # Modular ML components
+│   │   ├── __init__.py
+│   │   ├── data_ingestion.py  # Handles raw data loading
+│   │   ├── data_transformation.py # Data cleaning & preprocessing
+│   │   └── model_trainer.py   # Model training and evaluation
+│   │
+│   ├── pipeline/              # ML workflow pipelines
+│   │   ├── __init__.py
+│   │   ├── predict_pipeline.py # Prediction workflow
+│   │   └── train_pipeline.py  # Training workflow
+│   │
+│   ├── exception.py           # Custom exception handling
+│   ├── logger.py             # Logging configuration utility
+│   └── utils.py              # Helper functions and utilities
+│
+├── notebooks/                 # Jupyter notebooks for analysis
+│   ├── 1. EDA Student Performance.ipynb  # Exploratory Data Analysis
+│   └── 2. Model Training.ipynb          # Model training experiments
+│
+├── templates/                 # HTML templates for Flask web interface
+├── artifacts/                 # Generated files (models, preprocessors, etc.)
+└── README.md                  # Project documentation (this file)
 
 
 ## 4. Installation
