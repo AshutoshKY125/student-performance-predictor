@@ -14,35 +14,35 @@ This project implements an end-to-end machine learning pipeline to predict stude
 ## 3. Project Structure
 
 project-root/
-│
-├── app.py                  # Main Flask application entry point
-├── requirements.txt          # Python dependencies and packages
-├── setup.py                  # Installation script for project setup
-│
-├── src/                      # Core source code package
-│   ├── __init__.py           # Package initialization
-│   ├── components/           # Modular ML components
-│   │   ├── __init__.py
-│   │   ├── data_ingestion.py     # Handles raw data loading
-│   │   ├── data_transformation.py# Data cleaning & preprocessing
-│   │   └── model_trainer.py      # Model training and evaluation
-│   │
-│   ├── pipeline/             # ML workflow pipelines
-│   │   ├── __init__.py
-│   │   ├── predict_pipeline.py # Prediction workflow
-│   │   └── train_pipeline.py     # Training workflow
-│   │
-│   ├── exception.py          # Custom exception handling
-│   ├── logger.py               # Logging configuration utility
-│   └── utils.py                # Helper functions and utilities
-│
-├── notebooks/                # Jupyter notebooks for analysis
-│   ├── 1. EDA Student Performance.ipynb # Exploratory Data Analysis
-│   └── 2. Model Training.ipynb        # Model training experiments
-│
-├── templates/                # HTML templates for Flask web interface
-├── artifacts/                # Generated files (models, preprocessors, etc.)
-└── README.md                 # Project documentation
+|
++-- app.py                  # Main Flask application entry point
++-- requirements.txt          # Python dependencies and packages
++-- setup.py                  # Installation script for project setup
+|
++-- src/                      # Core source code package
+|   +-- __init__.py           # Package initialization
+|   +-- components/           # Modular ML components
+|   |   +-- __init__.py
+|   |   +-- data_ingestion.py     # Handles raw data loading
+|   |   +-- data_transformation.py# Data cleaning & preprocessing
+|   |   L-- model_trainer.py      # Model training and evaluation
+|   |
+|   +-- pipeline/             # ML workflow pipelines
+|   |   +-- __init__.py
+|   |   +-- predict_pipeline.py # Prediction workflow
+|   |   L-- train_pipeline.py     # Training workflow
+|   |
+|   +-- exception.py          # Custom exception handling
+|   +-- logger.py               # Logging configuration utility
+|   L-- utils.py                # Helper functions and utilities
+|
++-- notebooks/                # Jupyter notebooks for analysis
+|   +-- 1. EDA Student Performance.ipynb # Exploratory Data Analysis
+|   L-- 2. Model Training.ipynb        # Model training experiments
+|
++-- templates/                # HTML templates for Flask web interface
++-- artifacts/                # Generated files (models, preprocessors, etc.)
+L-- README.md                 # Project documentation
 
 
 ## 4. Installation
